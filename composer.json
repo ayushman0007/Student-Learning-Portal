@@ -1,0 +1,17 @@
+{
+    "name": "dell/my-form",
+    "autoload": {
+        "psr-4": {
+            "Dell\\MyForm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ayushman",
+            "email": "ayushman220704@gmail.com"
+        }
+    ],
+    "require": {
+        "tecnickcom/tcpdf": "^6.10"
+    }
+}
