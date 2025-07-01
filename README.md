@@ -41,7 +41,7 @@ A web-based platform built with **PHP and MySQL** for managing student learning 
 ## 🛠️ Tech Stack
 
 | Layer        | Technology           |
-|--------------|----------------------|
+|:------------:|:---------------------------------------:|
 | Frontend     | HTML, CSS, JavaScript, Bootstrap |
 | Backend      | PHP                  |
 | Database     | MySQL                |
@@ -51,35 +51,36 @@ A web-based platform built with **PHP and MySQL** for managing student learning 
 
 ## 🗂️ Project Structure
 
+```
 /project-root
 │
+├── db.php # Database connection
 ├── index.php # Landing page or enquiry form
 ├── signup.php # User registration
 ├── login.php # User login
-├── profile.php # User dashboard
+├── profile.php # User dashboard 
+├── logout.php # User logout
+├── insert_admin.php # Admin credentials
+├── admin_login.php # Admin login
 ├── admin.php # Admin dashboard
+├── admin_logout.php # Admin logout
 ├── submit_answer.php # Handles test responses
-├── db/
-│ └── database.sql # MySQL DB export
-├── assets/ # CSS, JS, images
 ├── uploads/ # User documents
+├── study_materials/ # Study materials 
 └── README.md # This file
-
-
+```
 ---
 
 ## 📦 Setup Instructions
 
-1. 📥 **Download & Install [XAMPP](https://www.apachefriends.org/)**
-2. 📁 **Place the project folder inside:**
-
-C:\xampp\htdocs\your-project-folder
+1. 📥 **Download & Install [XAMPP](https://www.apachefriends.org/)**                            
+2. 📁 **Place the project folder inside:**                                                       C:\xampp\htdocs\your-project-folder
 
 3. 🧾 **Import the Database:**
 - Start Apache & MySQL via XAMPP
 - Open `http://localhost/phpmyadmin`
 - Create a database (e.g. `student_system`)
-- Use **Import** tab to upload `database.sql` file
+- Use **Import** tab to upload `database.sql` file                                              
 4. 🌐 **Run the Application:**
 - Visit `http://localhost/your-project-folder`
 
